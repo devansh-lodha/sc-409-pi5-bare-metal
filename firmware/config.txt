@@ -1,0 +1,5 @@
+# Enable the SWD debug pins on the Pi 5
+enable_jtag_gpio=1
+
+# Prevent the PCIe controller from resetting link to RP1
+pciex4_reset=0

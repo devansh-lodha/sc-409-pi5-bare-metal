@@ -1,0 +1,90 @@
+  1.47 RPi: BOOTSYS release VERSION:26826259 DATE: 2024/09/23 TIME: 14:02:56
+  1.51 BOOTMODE: 0x06 partition 0 build-ts BUILD_TIMESTAMP=1727096576 serial cd250f81 boardrev d04171 stc 1651277
+  1.61 AON_RESET: 00000003 PM_RSTS 00001000
+  1.68 RP1_BOOT chip ID: 0x20001927
+  1.71 PM_RSTS: 0x00001000
+  1.71 part 00000000 reset_info 00000000
+  1.75 PMIC reset-event 00000000 rtc 00000001 alarm 00000000 enabled 0
+  1.81 uSD voltage 3.3V
+  1.88 SDRAM_CONFIG: 14
+  1.88 Initialising SDRAM rank 2 total-size: 64 Gbit 4267 (0x14 0x14)
+  1.93 DDR 4267 1 0 64 152
+  3.05 OTP boardrev d04171 bootrom a a
+  3.06 Customer key hash 0000000000000000000000000000000000000000000000000000000000000000
+  3.14 VC-JTAG unlocked
+  3.36 RP1_BOOT chip ID: 0x20001927
+
+  4.38 RP1_BOOT chip ID: 0x20001927
+  4.38 RP1_BOOT: fw size 25992
+  4.94 PCI2 init
+  4.94 PCI2 reset
+  4.38 PCIe scan 00001de4:00000001
+  4.39 RP1_CHIP_INFO 20001927
+
+  4.41 RPi: BOOTLOADER release VERSION:26826259 DATE: 2024/09/23 TIME: 14:02:56
+  4.49 BOOTMODE: 0x06 partition 0 build-ts BUILD_TIMESTAMP=1727096576 serial cd250f81 boardrev d04171 stc 4549055
+  4.59 AON_RESET: 00000003 PM_RSTS 00001000
+  4.63 PCIEx1: PWR 0 DET_WAKE 0
+  4.65 M.2 PCIe HAT not detected.
+  4.89 usb_pd_init status 3
+  4.91 USB_PD CONFIG 0 41
+  4.97 XHCI-STOP
+  4.97 xHC0 ver: 272 HCS: 03000440 140000f1 07ff000a HCC: 0240fe6d
+  4.02 USBSTS 1
+  4.04 xHC0 ver: 272 HCS: 03000440 140000f1 07ff000a HCC: 0240fe6d
+  4.09 xHC0 ports 3 slots 64 intrs 4
+  4.21 XHCI-STOP
+  4.21 xHC1 ver: 272 HCS: 03000440 140000f1 07ff000a HCC: 0240fe6d
+  4.26 USBSTS 1
+  4.28 xHC1 ver: 272 HCS: 03000440 140000f1 07ff000a HCC: 0240fe6d
+  4.33 xHC1 ports 3 slots 64 intrs 4
+  4.41 Boot mode: SD (01) order f4
+  4.41 USB-PD: src-cap PDO object1 0x0801912c
+  4.42 Current 3000 mA
+  4.44 Voltage 5000 mV
+  4.47 USB-PD: src-cap PDO object2 0x0002d0de
+  4.51 Current 2220 mA
+  4.53 Voltage 9000 mV
+  4.55 USB-PD: src-cap PDO object3 0x0003c0a7
+  4.59 Current 1670 mA
+  4.61 Voltage 12000 mV
+  4.63 USB-PD: src-cap PDO object4 0xc076213c
+  4.67 USB-PD: src-cap PDO object5 0xc0dc2124
+  5.86 SD HOST: 200000000 CTL0: 0x00800000 BUS: 400000 Hz actual: 390625 HZ div: 512 (256) status: 0x1fff0000 delay: 276
+  5.97 SD HOST: 200000000 CTL0: 0x00800f00 BUS: 400000 Hz actual: 390625 HZ div: 512 (256) status: 0x1fff0000 delay: 276
+  5.06 EMMC
+  5.06 SD retry 1 oc 0
+  5.30 SD HOST: 200000000 CTL0: 0x00800000 BUS: 400000 Hz actual: 390625 HZ div: 512 (256) status: 0x1fff0000 delay: 276
+  5.39 SD retry 2 oc 0
+  5.63 SD HOST: 200000000 CTL0: 0x00800000 BUS: 400000 Hz actual: 390625 HZ div: 512 (256) status: 0x1fff0000 delay: 276
+  5.72 SDV1
+  5.72 SD CMD: 0x371a0010 (55) 0x0 0x1fff0001
+  5.73 Failed to open device: 'sdcard' (cmd 371a0010 status 1fff0001)
+  5.80 Retry SD 1
+  5.10 SD HOST: 200000000 CTL0: 0x00800000 BUS: 400000 Hz actual: 390625 HZ div: 512 (256) status: 0x1fff0000 delay: 276
+  5.21 SD HOST: 200000000 CTL0: 0x00800f00 BUS: 400000 Hz actual: 390625 HZ div: 512 (256) status: 0x1fff0000 delay: 276
+  6.30 EMMC
+  6.30 SD retry 1 oc 0
+  6.54 SD HOST: 200000000 CTL0: 0x00800000 BUS: 400000 Hz actual: 390625 HZ div: 512 (256) status: 0x1fff0000 delay: 276
+  6.63 SD retry 2 oc 0
+  6.87 SD HOST: 200000000 CTL0: 0x00800000 BUS: 400000 Hz actual: 390625 HZ div: 512 (256) status: 0x1fff0000 delay: 276
+  6.96 SDV1
+  6.96 SD CMD: 0x371a0010 (55) 0x0 0x1fff0001
+  6.98 Failed to open device: 'sdcard' (cmd 371a0010 status 1fff0001)
+  6.04 Boot mode: USB-MSD (04) order f
+  6.21 XHCI-STOP
+  6.21 xHC0 ver: 272 HCS: 03000440 140000f1 07ff000a HCC: 0240fe6d
+  6.26 USBSTS 0
+  6.30 XHCI-STOP
+  6.30 xHC1 ver: 272 HCS: 03000440 140000f1 07ff000a HCC: 0240fe6d
+  6.35 USBSTS 0
+  6.43 XHCI-STOP
+  6.43 xHC0 ver: 272 HCS: 03000440 140000f1 07ff000a HCC: 0240fe6d
+  6.47 USBSTS 1
+  6.50 xHC0 ver: 272 HCS: 03000440 140000f1 07ff000a HCC: 0240fe6d
+  6.55 xHC0 ports 3 slots 64 intrs 4
+  6.67 XHCI-STOP
+  6.67 xHC1 ver: 272 HCS: 03000440 140000f1 07ff000a HCC: 0240fe6d
+  6.71 USBSTS 1
+  6.74 xHC1 ver: 272 HCS: 03000440 140000f1 07ff000a HCC: 0240fe6d
+  6.79 xHC1 ports 3 slots 64 intrs 4
