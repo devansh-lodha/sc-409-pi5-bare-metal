@@ -1,0 +1,21 @@
+# Automates the bare-metal deployment pipeline over SWD.
+
+# 1. Connect to the local OpenOCD daemon listening on port 3333.
+target extended-remote :3333
+
+# 2. Issue a hardware-level reset via OpenOCD and instantly halt the CPU.
+# This prevents the CPU from executing the stale code on the SD card.
+monitor reset init
+
+# 3. Parse the ELF file provided to GDB, extract the loadable sections, 
+# and inject them over the SWD cable into physical RAM.
+load
+
+# 4. The CPU reset vector might not point to our code. 
+# We explicitly overwrite the Program Counter to match our Linker Script entry point.
+set $pc = 0x80000
+
+# 5. Set a hardware breakpoint at our entry label.
+break _start
+
+# 6. We leave the CPU halted here so the developer can use 'stepi' or 'continue'.
