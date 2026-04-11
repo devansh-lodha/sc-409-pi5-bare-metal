@@ -1,1 +1,0 @@
-/Users/devanshlodha/Documents/github/sc-409-pi5-bare-metal/src/04_booting_rust/target/aarch64-unknown-none/debug/sc-409-os: /Users/devanshlodha/Documents/github/sc-409-pi5-bare-metal/src/04_booting_rust/boot.s /Users/devanshlodha/Documents/github/sc-409-pi5-bare-metal/src/04_booting_rust/main.rs
