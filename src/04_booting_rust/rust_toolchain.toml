@@ -1,0 +1,8 @@
+[toolchain]
+# We use the nightly channel. Bare-metal development requires bleeding-edge
+# compiler features that are not yet stabilized in the standard Rust releases.
+channel = "nightly"
+
+# We tell rustup to automatically download the standard library (core) 
+# pre-compiled for our bare-metal architecture.
+targets = ["aarch64-unknown-none"]

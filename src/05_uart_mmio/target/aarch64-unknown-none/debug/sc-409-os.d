@@ -1,0 +1,1 @@
+/Users/devanshlodha/Documents/github/sc-409-pi5-bare-metal/src/05_uart_mmio/target/aarch64-unknown-none/debug/sc-409-os: /Users/devanshlodha/Documents/github/sc-409-pi5-bare-metal/src/05_uart_mmio/boot.s /Users/devanshlodha/Documents/github/sc-409-pi5-bare-metal/src/05_uart_mmio/main.rs /Users/devanshlodha/Documents/github/sc-409-pi5-bare-metal/src/05_uart_mmio/uart.rs

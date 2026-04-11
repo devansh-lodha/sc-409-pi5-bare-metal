@@ -1,0 +1,26 @@
+[package]
+name = "sc-409-os"
+version = "0.1.0"
+edition = "2024"
+authors = ["Devansh Lodha"]
+
+# Explicitly tell Cargo where our source file is, defaults to 'src/'.
+[[bin]]
+name = "sc-409-os"
+path = "main.rs"
+
+
+[dependencies]
+# We will add external crates here later (e.g., tock-registers for MMIO)
+
+[profile.dev]
+# When compiling in debug mode, do not optimize the code. 
+# This makes stepping through it in GDB much easier.
+opt-level = 0
+# Force the compiler to abort on panic, rather than trying to "unwind" the stack.
+# Stack unwinding requires an OS and massive runtime overhead.
+panic = "abort"
+
+[profile.release]
+opt-level = 3
+panic = "abort"
